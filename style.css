@@ -55,6 +55,8 @@ input{
 /* top banner */
 .banner{
     background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
