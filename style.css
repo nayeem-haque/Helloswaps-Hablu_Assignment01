@@ -234,6 +234,100 @@ footer{
     }
 }
 
-.footer-text{
-  align-items:inherit
+
+
+/* Responsive */
+@media (max-device-width: 767px) {
+
+    nav {
+        flex-direction: column;
+        margin-bottom: 160px; 
+        margin-top: 50px; 
+    
+    .nav-list{
+        margin-right:0px;
+        flex-direction: column;
+    }
+}
+    .banner{
+        flex-direction: column;
+        & div{
+            width: 350px;
+            height: 200px;
+            background-color: #ffff;  
+            flex-direction: column;
+        }
+    
+        
+    }
+    #Currency{
+        margin-left: 10px;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .option{
+        margin-top: 10px;
+        padding-bottom: 200px;
+        
+    }
+    .option2{
+       /* display: none; */
+       margin-top: -250px;
+    }
+    
+    .how-much{
+        padding: 8px 20px;
+       
+    }
+    
+    .why-zappr{
+        margin-top: 220px;
+        margin-bottom: 50px;
+    }
+    
+    .buy-sell{
+        
+        & img{
+            margin-top: 25px;
+            width: 85%;
+
+        }
+        
+    }
+    .flexible-container {
+        flex-direction: column;
+    }
+    .feature-item {
+        width: 80%;
+    }
+    .item{
+       
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10px;
+       
+    }
+    .signup-section{
+       
+        .button{
+            padding-top: 40px;
+        }
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+       
+    
+        & img{
+            width: 100%;
+          
+        }
+    }
+    .about-spacio{
+        margin-left: 25px;
+    }
+    
+    
 }
